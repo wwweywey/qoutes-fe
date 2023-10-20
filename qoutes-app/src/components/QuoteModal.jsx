@@ -1,5 +1,5 @@
 import { userIsAuthenticated } from "../utils/helpers";
-import "../styles/QuoteModal.css";
+import "../styles/quoteModal.css";
 
 // import { styled } from "@mui/material/styles";
 // import Rating from "@mui/material/Rating";
