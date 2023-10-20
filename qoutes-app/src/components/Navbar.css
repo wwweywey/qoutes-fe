@@ -10,7 +10,7 @@
   padding: 0 2em;
   backdrop-filter: blur(10px);
 
-  li {
+  & li {
     float: left;
     margin: 10px;
     list-style: none;
