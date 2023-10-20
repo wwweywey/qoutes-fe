@@ -1,0 +1,43 @@
+:root {
+  font-family: signika negative, Helvetica, Arial, sans-serif;
+
+  --primary: #1e1e1e;
+  --secondary: #0b6cac;
+  --highlight: #2a637a;
+  --neutral: #6c6c6c;
+  --white: #ffffff;
+  --light: #d0d0d0;
+
+  position: relative;
+  /* min-height: 100vh; */
+  padding-bottom: 4em;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container.dark-mode {
+  background-color: var(--primary);
+  color: var(--light);
+  min-height: 100%;
+}
+
+/* .darkMode {
+  --primary: #e3e3e3;
+  --secondary: #064067;
+  --highlight: #46acd4;
+  --neutral: #c7c7c7;
+  --white: #ffffff;
+  --light: #2e2e2e;
+} */
+
+.app-container {
+  min-height: 100%;
+}

@@ -1,0 +1,73 @@
+.quoteList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  font-weight: 500;
+  padding-bottom: 6em;
+}
+
+.quoteText {
+  background-color: var(--light);
+  color: var(--primary);
+  border-radius: 0.5em;
+  width: 20em;
+  padding: 1em 5em;
+  min-height: 8em;
+  max-height: 10em;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--highlight);
+    color: var(--white);
+
+    .categoryName {
+      color: #ff6d75;
+    }
+  }
+
+  .categoryName {
+    text-transform: uppercase;
+    color: var(--highlight);
+    font-weight: 800;
+    margin-top: 0;
+  }
+}
+
+.qouteListContainer {
+  height: 100%;
+  text-align: center;
+}
+.qouteListContainer button {
+  position: relative;
+  bottom: 8em;
+}
+
+.likeButton {
+  // width: 100px;
+  // height: 100px;
+  position: absolute;
+  // left: 50em;
+  // top: 50em;
+
+  // transform: translate(-50%, -50%);
+  background-position: 0 0;
+  cursor: pointer;
+  animation: fave-heart 1s steps(28);
+
+  &:hover {
+    cursor: pointer;
+    color: red;
+    transition: background 1s steps(28);
+  }
+
+  @keyframes fave-heart {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -2800px 0;
+    }
+  }
+}

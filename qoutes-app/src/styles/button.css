@@ -1,0 +1,20 @@
+button {
+  margin: 2em 0;
+  padding: 0.5em 1.5em;
+  border-radius: 1.5em;
+  color: var(--white);
+  border: 2px solid var(--highlight);
+  background-color: var(--highlight);
+
+  /* width: 12em; */
+}
+
+button:hover {
+  background-color: var(--white);
+  color: var(--highlight);
+  cursor: pointer;
+}
+
+Link {
+  text-decoration: inherit;
+}

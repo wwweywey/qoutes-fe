@@ -1,0 +1,37 @@
+.categoryBox {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+
+  .link {
+    text-decoration: none;
+  }
+}
+
+.quotes {
+  background-color: var(--light);
+  color: var(--primary);
+  margin: 10px;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+
+  &:hover {
+    background-color: var(--highlight);
+    color: var(--white);
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+.catergoryContainer {
+  text-align: center;
+  margin: auto;
+  max-width: 80%;
+}

@@ -1,0 +1,52 @@
+/* .formContainer {
+  width: 45em;
+  display: flex;
+  margin: auto;
+  padding: 2em 0;
+  justify-content: center;
+  border-radius: 1em;
+  border: 2px solid var(--light);
+}
+
+.formInput {
+  margin: 0.5em 1em;
+  border-bottom: 1px solid;
+  border-bottom-style: solid;
+  width: 16em;
+  margin: 1em;
+
+  border-style: none;
+}
+
+.formContainer form {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border-bottom: 1px solid;
+  width: 26em;
+}
+
+.username,
+.lastname,
+.email,
+.password,
+.confirmPassword {
+  margin-bottom: 0.5em;
+  text-align: right;
+}
+
+h5 {
+  font-weight: 100;
+  color: #a0a0a0;
+}
+
+.errorMessage {
+  margin: 2em 0;
+  color: red;
+  font-size: small;
+  font-weight: 100;
+  margin-top: -1em;
+} */

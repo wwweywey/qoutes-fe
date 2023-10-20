@@ -1,0 +1,60 @@
+.profileContainer {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  padding: 1em;
+  box-sizing: border-box;
+  border: 2px solid var(--light);
+  border-radius: 1em;
+  flex-direction: column;
+  align-content: center;
+
+  .detailsContainer {
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    .userDetail {
+      float: right;
+    }
+
+    .userDetail p {
+      border-bottom: 2px solid #dcdcdc;
+      width: 20em;
+    }
+  }
+
+  .quouteCollection {
+    box-sizing: border-box;
+    padding: 1em;
+
+    text-align: center;
+
+    h2 {
+      border-bottom: 2px solid #dcdcdc;
+    }
+
+    .quoteList {
+      padding: 0;
+    }
+
+    .qoutesThumbnails {
+      display: flex;
+      gap: 0.5em;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2em;
+
+      .thumb {
+        background-color: #c9c9c9;
+        width: 10em;
+        height: 12em;
+        border-radius: 0.5em;
+      }
+    }
+  }
+
+  .myQuouteFooter {
+    margin-bottom: 6em;
+  }
+}

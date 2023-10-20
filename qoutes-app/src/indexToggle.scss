@@ -1,0 +1,56 @@
+.dark-mode {
+  .navBar,
+  .footer {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+
+  .navBar {
+    border-bottom: 2px solid var(--highlight);
+  }
+
+  .footer {
+    border-top: 2px solid var(--highlight);
+  }
+
+  .welcomeQuote {
+    color: var(--white);
+  }
+
+  .quotes {
+    background-color: var(--highlight);
+    color: var(--white);
+  }
+
+  .toggle {
+    background-color: var(--highlight);
+  }
+
+  .quotes {
+    background-color: var(--highlight);
+  }
+
+  .quotes:hover {
+    background-color: var(--light);
+    color: var(--highlight);
+  }
+}
+
+.light-mode {
+  .navBar {
+    background: var(--white);
+    border-top: 2px solid var(--light);
+  }
+
+  .navBar {
+    border-bottom: 2px solid var(--light);
+  }
+
+  .footer {
+    border-top: 2px solid var(--light);
+  }
+
+  .toggle {
+    background-color: var(--light);
+  }
+}

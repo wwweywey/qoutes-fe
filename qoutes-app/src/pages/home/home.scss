@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10em 0;
+
+  .welcomeQuote {
+    text-align: center;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+
+  .homeImage {
+    max-width: 16em;
+    position: absolute;
+    bottom: 7em;
+    right: 12em;
+    z-index: 1;
+    min-width: 6em;
+  }
+
+  .action-div {
+    display: flex;
+    gap: 10px;
+  }
+}
